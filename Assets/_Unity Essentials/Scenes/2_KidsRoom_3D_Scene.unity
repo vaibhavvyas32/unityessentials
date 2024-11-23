@@ -737,6 +737,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1962330708744249442, guid: 33536709dbec94718966b62059ffe8cc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2418041505170678499, guid: 33536709dbec94718966b62059ffe8cc,
         type: 3}
       propertyPath: m_Name
@@ -1494,6 +1499,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Block Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 8223000523111221939, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
