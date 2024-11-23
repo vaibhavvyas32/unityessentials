@@ -202,6 +202,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dresser_55in_BR001
       objectReference: {fileID: 0}
+    - target: {fileID: 1792912681060168333, guid: 4e59ffe67e168564eb989e989adde9b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1792912681060396717, guid: 4e59ffe67e168564eb989e989adde9b5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1095,6 +1100,74 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.99999994, y: 1, z: 0.99999994}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &7241048858408826894
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7585281069197026591, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585281069197026591, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.173
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585281069197026591, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.057
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585281069197026591, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585281069197026591, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585281069197026591, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585281069197026591, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585281069197026591, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585281069197026591, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7585281069197026591, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7837173422576309845, guid: a685d87a6c6fcbc43bd9e594517ac536,
+        type: 3}
+      propertyPath: m_Name
+      value: Block Tower
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a685d87a6c6fcbc43bd9e594517ac536, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1109,3 +1182,4 @@ SceneRoots:
   - {fileID: 205472606}
   - {fileID: 900595822}
   - {fileID: 1184586474}
+  - {fileID: 7241048858408826894}
